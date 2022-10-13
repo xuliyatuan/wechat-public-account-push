@@ -15,11 +15,10 @@ const USER_CONFIG = {
 
   PROVINCE: '青岛',
   city: '青岛',
-
   USERS: [
     {
       // 想要发送的人的名字
-      name: '崽崽',
+      name: '',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'ozTk26M28AC8cMITcBSTOvW-cSJs',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
@@ -29,11 +28,11 @@ const USER_CONFIG = {
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          birthday2: '生日', name: '老公', year: '2000', date: '12-19',
+          type: '生日', name: '', year: '2000', date: '12-19',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
-          type: '生日', name: '崽崽', year: '1999', birthday: '07-27',
+          type: '生日', name: '', year: '1999', date: '07-27',
         },
         {
           type: '节日', name: '恋爱纪念日', year: '2022', date: '09-17',
