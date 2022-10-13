@@ -14,7 +14,7 @@ const USER_CONFIG = {
   APP_SECRET: 'a3dbb353e9ba21580c2401e49af6a593',
 
   PROVINCE: '山东',
-  city: '青岛',
+  CITY: '青岛',
 
   USERS: [
     {
@@ -23,15 +23,14 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'ozTk26M28AC8cMITcBSTOvW-cSJs',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'ac1uHiIbnaXcDbvE8zmyJAoTA_iMIvBMr_Q6eMWLxZE',
+      useTemplateId: '8ucGLEJEni6pre5f4OOd5VSFeYRXaeRjdjq1AmJAeOM',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '07-27',
-      birthday: '07-27',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-        //{
-         // birthday2: '生日', name: '老公', year: '2000', date: '12-19',
-        //},
+        {
+          birthday2: '生日', name: '老公', year: '2000', date: '12-19',
+        },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
           type: '生日', name: '崽崽', year: '1999', birthday: '07-27',
@@ -45,14 +44,14 @@ const USER_CONFIG = {
         // 在一起的日子
         { keyword: 'love_day', date: '2022-09-17' },
         // 结婚纪念日
-        //{ keyword: 'marry_day', date: '2022-09-09' },
+        //{ keyword: 'birthday', date: '07-27' },
       ],
     },
   ],
 
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: 'ac1uHiIbnaXcDbvE8zmyJAoTA_iMIvBMr_Q6eMWLxZE',
+  CALLBACK_TEMPLATE_ID: '8ucGLEJEni6pre5f4OOd5VSFeYRXaeRjdjq1AmJAeOM',
 
   CALLBACK_USERS: [
     {
