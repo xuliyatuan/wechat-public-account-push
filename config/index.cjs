@@ -13,8 +13,9 @@ const USER_CONFIG = {
   // 使用微信测试号：公众号APP_SECRET  
   APP_SECRET: 'a3dbb353e9ba21580c2401e49af6a593',
 
-  //PROVINCE: '青岛',
-  city: '青岛',
+  PROVINCE: "青岛",
+  city: "青岛",
+  
   USERS: [
     {
       // 想要发送的人的名字
@@ -32,7 +33,7 @@ const USER_CONFIG = {
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
-          type: '生日', name: '', year: '1999', date: '07-27',
+          type: '生日', name: '崽崽', year: '1999', date: "07-27",
         },
         {
           type: '节日', name: '恋爱纪念日', year: '2022', date: '09-17',
